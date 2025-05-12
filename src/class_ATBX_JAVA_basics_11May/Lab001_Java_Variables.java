@@ -1,0 +1,9 @@
+package class_ATBX_JAVA_basics_11May;
+
+public class Lab001_Java_Variables {
+    public static void main(String[] args) {
+        byte age = 20;
+        age =  25;
+        System.out.println(age);
+    }
+}
