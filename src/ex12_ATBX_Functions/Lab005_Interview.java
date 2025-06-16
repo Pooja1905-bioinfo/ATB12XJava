@@ -1,11 +1,11 @@
 package ex12_ATBX_Functions;
 
-/*public class Lab005_Interview {
+public class Lab005_Interview {
     public static void main(String[] args) {
 
     }
-
-    public static void main(String[] args) {
+}
+    /*public static void main(String[] args) {
 
     }
 
