@@ -1,14 +1,15 @@
-package ATBX_Tasks.If_else;
+package ATBX_Tasks.WhieLoop;
 
 import java.util.Scanner;
 
+import static ATBX_Tasks.WhieLoop.primeChecker.isPrime;
 
-public class Task0016_PrimeNumber {
+public class Task010_PrimeNumber {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
         int num = scanner.nextInt();
-        if (primeChecker.isPrime(num)){
+        if (isPrime(num)){
             System.out.println(num + " is a prime number");
         }
         else{
@@ -28,6 +29,6 @@ class primeChecker{
             if (n % i == 0) return false;
         }
         return true;
+        }
     }
 
-}
